@@ -1,0 +1,42 @@
+.pContainer {
+  display: flex
+}
+
+.p {
+  margin: 10px;
+  border: solid 2px black;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.image {
+
+}
+
+.myForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: dotted 1px black;
+  padding: 1rem;
+}
+
+.myForm > * {
+  margin: 10px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.fruitList > *  {
+  width: 10%;
+  margin: 10px;
+  border: solid 1px black;
+}
